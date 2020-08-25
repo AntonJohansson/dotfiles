@@ -1,0 +1,58 @@
+== Study Questions ==
+	1. Vilka två viktiga grundkrav ställer en på en kärnmodell?
+			1) måste ta hänsyn till tidigare mätta kärnegenskaper,
+			2) måste kunna förutspå nya egenskaper som kan testas.
+	2. Det finns två analogier mellan atomens skalmoddel och kärnans,
+		men också viktiga skillnader, vilka?
+			atom: e rör sig i kärnans potential,
+			kärnan: nukleoner rör sig i deras egna potential.
+
+			atom: e kolliderar inte i deras banor.
+			kärnan: nukleoner kolliderar mycket i deras "banor".
+	3. Ange några exempel på observationer som stöder tanken på
+		en skalstruktur i kärnan?
+			* sep. energin ökar gradvis med ökat Z,N, likt atomfallet,
+				med några skarpa drop som mostvarar fulla skal.
+			* a emission from isotopes of Rn show a increase in
+				energy when the daughter has N = 126 and is more
+				tightly bound.
+			* n capture cross sections decrease rapidly in energy at the
+				magic numbers.
+			* nuclear charge radius jumps massivly after magic numbers.
+	4. Hur uppstår den attraktiva potentialen i skalmodellen?
+			Rörelsen av en nukleon styrs av potentialen som skapas av
+			alla andra nukleoner.
+	5. Vilken form bör den ha?
+		V(r) = -V0 / (1 + exp[(r-R)/a])
+	6. Förklara hur spinn-banaväxelverkan åstadkommer den uppsplitter
+		som slutligen ger de magiska talen?
+			SO tar hänsyn till interaktionen mellan nukleonens spin och
+			B-fältet från dess rörelse. Det totala momenten kan kombineras
+			på två sätt för en energinivå j = l +- s.  För varje tillstånd
+			fås alltså två st nya tillstånd med olika j.
+	7. Titta på figur 5.7, vika blir kärnornas grundtillstånd
+		(spin, paritet)? Varför?
+			properties determined by unpaired nukleon.
+			15O - spin 1/2, odd parity.
+			17O - spin 5/2, odd parity.
+
+== Calculate Questions ==
+	2.1: Kärnan Co(59), (Z=27), har i grundtillståndet kärnspin och paritet
+		7/2,-:
+			n = 32, jämt antal, inga ensamma,
+			z = 27, 1 oparad proton f7/2 tillståndet
+			s,p,d,f
+			0,1,2,3
+			f är udda paritet
+		Kärnan Ni(59), (Z = 28) har känspin och paritet 3/2, -:
+			z = 28, jämnt antal, inga ensamma,
+			n = 31, 1 oparad neutron i 2p3/2
+			p har udda paritet
+	2.2. I en viss kärna är alla skallmodellsnivåer upp tom
+			1d3/2 fyllda med protoner och alla nivåer upp tom
+			1f7/2 fyllda med n. Vilken är kärnan och vilket
+			kärnspinn och paritet ger den i grundtillståndet?
+				1d3/2 -> 20 protoner
+				1f7/2 -> 28 neutroner
+				=> kärnan är Ca(48) har spinn 0 och ingen paritet?
+				(tydligen ger slutna skal jämn paritet)

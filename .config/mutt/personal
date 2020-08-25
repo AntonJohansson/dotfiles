@@ -1,0 +1,8 @@
+set folder = imaps://97antjoh@imap.gmail.com/
+set imap_user = 97antjoh@gmail.com
+set imap_pass = 79139476AntonJ
+set spoolfile = +INBOX
+mailboxes	= +INBOX
+set postponed = +[Gmail]/Drafts
+
+account-hook $folder "set imap_user=97antjoh@gmail.com imap_pass=79139476AntonJ"

@@ -1,0 +1,125 @@
+== Study Questions ==
+	1. De flesta detektorer för radioaktiv stårlning fungerar enligt
+		samma enkla schematiska principer, beskriv dessa.
+			1) Strålning kommer in i detektorn,
+			2) -||- interagerar med materialet och förlorar energi,
+			3) energin slår ut ett antal låg-energi e ur deras bundna
+				tillstånd,
+			4) e fångas och bildar en puls proportionellt mot energin
+				hos strålningen.
+	2. Med vilka mekanismer förlorar tunga laddade partiklar (p,a,...) sin
+		energi när de passerar in i ett material, ex. en detektor?
+			* kärnan ockuperar enbart 10e-15 av atomens volym, majoriteten av
+				energiförlust sker därmed genom coulomb spridning mot elektroner
+				i materialet.
+	3. Hur ser partikelns bana ut?
+			* den tunga partikeln har så pass hög rörelsemängd att den enbart
+				avviker lite i sin bana vid vissa kollisioner.
+			* Banan är för det mesta helt rak.
+	4. Vilka är de väsentliga parametrarna i uttrycket för stopping power?
+			* stopping power är energiförlust per enhetslängd.
+			* v -- partiklens hastighet
+			* ze -- dess elektriska laddning
+			* Z,A,rho -- materialegenskaper
+			* m -- elektronmassan
+			* I -- medelexcitationsenergin av atomelektronerna
+	5. Hur kan en bestämma en partikels räckvidd (range) i material
+		utgående från stopping power?
+			* range fås genom integration av inverse stopping power
+			  över partikelenergin.
+			* dE/dx = stopping power
+			* range = R = int(T,0) 1/(-dE/dx) dE
+			* utrycket funkar dock inte för låga partikelenergier
+			  då det ej tar hänsyn till elektroninfång
+	6. För exaktare kalkyler kan en använda simuleringsprogrammet SRIM
+			* --
+	7. e förlorar precis som tunga joner sin energi genom genom c-vxv med
+		andra e, men det finns ytterligare en effekt som bidrar i vväxande
+		grad för energien över 1 MeV. Beskriv hur
+			* Due to e-e collisions the electron will scatter and move erratically.
+			* It will be subject to large changes in acceleration
+			* An accelerating charged particle radiates electromagnetic energy.
+	8. En känd accelerator i Lund utnyttjar denna princip. Hur?
+			* --
+	9. Beskriv hur den fotoelektriska effekten uppstår samt hur den varierar
+		med energi och absorbatormaterialets Z?
+			* En e i en atom absorberar en foton emitteras.
+			* Spelar stört roll vid låga fotonenergier ~ 100 keV
+			* Sannolikhet ökar snabbt ~Z^4
+			* Sannolikhet minskar snabbt med fotonenergi ~1/E^3
+	10. Studera fig 7.5 och förklara hur hacken i kurvan uppstår
+			* När fotonenergin överskriver bindingsenergin för ett visst "skal"
+				ökar tvätsnittet markant då även dessa e kan bidra till processen.
+	11. Förklara hur Comptoneffekt uppstår. Skissa ansatsen för att kunna
+		härleda uttrycket för Comptonspridning.
+			* Spridning av foton mot löst bunden (nästan fri) atom-e.
+			* Antag att e är fri och i vila (fotonenergi >> B(e))
+			* Conservation av lin. mom. och energi ger med hänsyn till relativitet
+			  den korrekta ansatsen.
+	12. Beskriv hur parproduktion sker
+			* Foton skapar e-/e+ par som färdas i olika riktningar för att bevara lin.
+				mom.
+			* Kräver en närliggande stor/tung atom för konservation av momentum.
+			* Energigräns på 2mc^2 för processen.
+			* Parproduktion spelar störst roll för högenergifotoner.
+	13. Alla tre processerna samverkar och beror på g-energi och Z (fig 7.8,
+		7.10). Lägg speciellt märke till hur andelen fotoelektrisk effekt
+		kraftigt med sjunkande Z. I labben gammaspektroskopi kommer
+		ni stöta på plast-scintillatorer (låg-Z) där fotoelektriska
+		effekten är helt försumbar.
+			* --
+	14. Den transmitterade intensiteten avtar på olika sätt för tunga joner,
+	    e, respektive fotoner, (se fig. 7.11 + kommentarer överst s.204).
+			* --
+	15. Beskriv hur en gasfylld detektor fungerar, ta hänsyn till pålagd
+		spänning, hur beror utgångspulseranas storlek på deponerad
+		strålningsenergi och pålagd spänning?
+			* ~Parallell-platt-kondensator samt pålagd spänning som ger E-fält
+				genompassarande strålning joniseras gasen mellan plattor, och
+				E-fältet separerar joner från e för räkning.
+			* För att en jonkammare skall kunna mäta strålningsenergin krävs
+				stor spänning för att e skall röra sig snabbt till anoden.
+				Detta leder till en lavin av sekundära joniseringsprocesser
+				då e har nog med energi.
+			* Mängden sekundärprocesser är prop. till mängden primärprocessen.
+			* Se fig. 7.13
+	16. Besrkiv med vilka fyra processer som pulser skapas i en
+		scintillationsdetektor då strålning fvaller in mot den.
+			1) Strålning interagerar med den solida scintillatorn genom
+				kollisioner osv => excitation av e
+			2) relaxtion av e => fluorescence
+			3) varje foton interagerar tillslut med ett fotokänskligt material
+				och producerar en foto-e per foton.
+			4) Dessa foto-e accelereras sedan av ett E-fält och multipliceras
+				precis som tidigare, detta leder till utångspulsen.
+	17. Hur sker förstärkningen i fotomultiplikatordelen av detektorn?
+			* Finns massa såkallade dynoder i PMn av ett material som lätt ger
+				ifrån sig fotoelektroner.
+			* Spänningen över dynoderna ökar desto längre ned i PMn vi går.
+			* Inkommande elektroner dras till den första dynoden, kolliderar,
+				vilket ger ifrån sig fler elektroner.
+			* Sedan dras de till nästa dynod, osv., osv.
+	18. Beskriv hur en pn-övergång fungerar, vad händer då en lägger på
+		en backspänning?
+			* Material av p/n-typ med olika valans-/ledningsbandkanter
+				läggs previd varandra, vilket leder till en "backe" i banden,
+				samt en laddningsfri region vid övergången där e och h kombinerats.
+			* Leder till att ett E-fält bildas över övergången.
+			* En applicerad back-spänning ökar potentialen på p-sidan och gör
+				"backen" brantare.
+			* Elektroner som exciteras från valens- till ledningsbandet följer
+				e-fältet och bildar en ström som kan detekteras.
+	19. Vilken typ av "informationsbärare" bildas i en halvledardetektor då
+		strålningskvanta har växelverkat i materialet.
+			* elektron/hål-par
+	20. Ungefär hur mycket energi krävs? Jämför med situationen i en
+		gasdetektor eller scintillationsdetektor. Hur påverkar detta det
+		slutliga spektrats utseende? (fig 7.26, .24 sammanfattar en mängd av
+		de händelsesekvenser som kan uppstå då g-strålning uppfångas i en
+		detektor.) Hur ger detta upphov till fig 7.25?
+			* Gasdetektor: krävs ~34 eV för att skapa en jon.
+			* Organisk scintillator: ~några eV
+			* Inorganisk scintillator: ~4 eV
+			* Halvledare: krävs nog energi för att överkomma bandgapet ~ eV
+				krävs dock mycket energi för att strålningen skall ta sig
+				till depletion-region (beroende på strålning ofc)

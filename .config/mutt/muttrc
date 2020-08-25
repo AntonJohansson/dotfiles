@@ -1,0 +1,10 @@
+set header_cache = "~/.cache/mutt"
+unset imap_passive
+set imap_keepalive = 300
+set mail_check = 120
+
+source "~/.config/mutt/personal"
+folder-hook $folder 'source ~/.config/mutt/personal'
+
+source "~/.config/mutt/school"
+folder-hook $folder 'source ~/.config/mutt/school'

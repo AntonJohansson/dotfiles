@@ -1,0 +1,36 @@
+== Study Questions ==
+	1. Ange egenskaperna för den starka kraften mellan nukleoner.
+			1) Starkare än Coulomb på små avstånd,
+			2) Försumbar på större avstånd (bortom kärnan),
+			3) En del partiklar (ex. e) är immuna från kraften,
+			4) Oberoende av nukleontyp,
+			5) Beroende av hurvida nukleonspinen är anti- eller parallella,
+			6) Inkluderar en repulsiv term som håller nukleoner på avstånd,
+			7) non-central (tensor) komponent som ej konserverar ang. mom.
+	3. Deuterium är en mycket speciell nuklid när det gäller
+		bindingsenergi och exciterade tillstånd. På villket sätt?
+			* Enklaste bundna tillståndet för nukleoner,
+			* Inga exciterade tillstånd,
+			* Svagt bunden (låg bindingsenergi).
+	4. Ange några sätt att bestämma dess bindningsenergi.
+			* Spektroskopsikt, mät m(D) och beräkna energin som saknas,
+			* p + n -> D + gamma, mät gamma,
+			* gamma + D -> p + n, hitta minumum gamma,
+	6. Hur kan en beräkna deutronens vågfunktion och vad blir resultatet?
+			Lös radiella SE för sfäriskt symmetrisk finite låd-potential,
+			ger sinus-lösning i potentialen och exponentiell nedång,
+			i "väggen" av potentialen.
+	8. En vet att D's totala kärnspin är I = 1. Nukleonernas egenspin sn
+		och sp är 1/2 vardera, vilka kombinationer med
+		banrörelsemängsmoment 1 är tänkbara?
+			I = sn + sp + l
+			1) sn,sp parallell; l = 0,
+			2) sn,sp antiparallell; l = 1,
+			3) sn,sp parallell; l = 1,
+			4) sn,sp parallell; l = 2.
+	9. En vet också att pariteten är jämn. Vilka kombinationer återstår?
+			1) sn,sp parallell; l = 0,
+			4) sn,sp parallell; l = 2.
+	11. Vilken kombination dominerar?
+			96% 1) sn,sp parallell; l = 0,
+			4%  4) sn,sp parallell; l = 2.

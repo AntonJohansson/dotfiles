@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/aj/.config/nvim/plugins/nord-vim/colors'
+let g:netrw_dirhist_9='/home/aj/.config/nvim/plugins/vim-256noir/colors'
+let g:netrw_dirhist_8='/home/aj/.config/fish/functions'
+let g:netrw_dirhist_7='/etc/fish/conf.d'
+let g:netrw_dirhist_6='/home/aj/git/st'
+let g:netrw_dirhist_5='/home/aj/git/plot/src'
+let g:netrw_dirhist_4='/usr/include/bits/types'
+let g:netrw_dirhist_3='/home/aj/git/sbmf/third_party/lapack-3.9.0'
+let g:netrw_dirhist_2='/home/aj/git/sbmf/third_party/lapack-3.9.0/INSTALL'
+let g:netrw_dirhist_1='/home/aj/.config/sx'

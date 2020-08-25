@@ -1,0 +1,183 @@
+== Study Questions ==
+	6. Om en vill fullständigt beskriva alla interaktioner mellan
+		nukleonerna i en A = 50 kärna behövs 50! termer. För att förenkla
+		ansätts ett antal statiska och dynamiska paramtrar hos kärnan,
+		vilka statiska parametrar används?
+			* elektrisk laddning,
+			* radie,
+			* massa,
+			* bindningsenergi,
+			* ang. mom.,
+			* paritet,
+			* magnetisk dipol,
+			* elektrisk quadrupole mom.,
+	7. Varken en atom eller en atomkärna har en väldefinierad storlek,
+		varför?
+			* Både Coulombkraften som binder atomen samt den starka
+			  har ej starka cut-offs utan går mot noll.
+	8. Vilka 2 (3) parametrar beskriver kärnans storlek?
+		* medelradie -- density half of its central value,
+		* skin thickness -- området där densiteten går från ~max -> ~min,
+		* (electric quadrupole moment?)
+	9. Varför kan två olika mätmetoder på samma kärna ge olika svår på
+		dess storlek?
+			Olika metoder mäter olika saker:
+				* e scattering - Coulombkraften,
+					laddningsfördelningen i kärnan,
+				* a scattering - starka kraften,
+					nukleonfördelning,
+	10. Förklara hur en kan mäta en kärnas storlek med e-spridning.
+		Jämför fig. 3.1 med 3.2.
+			e med hög energi har mindre våglängd än kärnan
+			=> deras spridning ger info om kärnan, precis
+			som ljus gör i vår vardag.
+
+			Resulterande mätning av spridningsvinkel och intensitet
+			ger ett spridningmönster som liknar spridning mot en
+			2D-disk. För spridning mot disk med diameter D fås  det
+			fösta minimat vid t = asin(1.22lambda/D).
+
+			Fig. 3.1 beskriver spridning mot lätt kärna,
+			Fig. 3.2       -||-              tung kärna.
+			3.2 saknar skarpa minima då kärnan saknar skarp kant.
+	11. Följ härledningen 3.1 och framåt. Fig 3.4. Förklara ek. (3.3).
+			härledningen beskriver spridning av elektron mot potential.
+			Ek. (3.3) uppskattar punktfördelningen av denna potential.
+			Integration ger hela potentialen.
+
+			Spridningsexperiment ger info om sannolikhetsfördleningen
+			över spridningsvinklar. Inversion av (3.6) ger
+			laddningsfördelningen.
+	12. Kommentera de slutsatser som kan dras av fig 3.4.
+			Fig 3.4 visar laddningsfördelningen för olika kärnor. Där
+			antalet nukleoner per volymenhet visar sig vara ~konstant,
+			desamma för skin-paramtern.
+	13. Om en använder isotopskift och spegelkärnor fört att bvestömma
+		kärnas storlek vilket utryck kommmer en fram till
+		(och parametervärdet??)
+			Isotopskift:
+				Mät K Xray energin E_K hos två närliggande isotoper A,A'
+				EK(A) - EK(A') = E2p(A) - E1s(A) - E2p(A') + E1s(A')
+					~= E1s(A') - E1s(A) = E'(A')+Delta(E,A') - E'(A) + Delta(E,A)
+					 = Delta(E,A') - Delta(E,A)
+				E = E' + Delta(E), E' = energi från punkfördelningskärna
+								   Delta(E) = energiskifte från sfärisk
+								   				kärna.
+				Delta(E) = (2/5) * (Z4*e2*R2)/(4pi*e0*a03)
+				R = R0A^(1/3)
+
+				=> EK(A)-EK(A') = -(2/5) * (Z4*e2)/(4pi*e0*a03)
+									* R0^2 * (A2/3 - A'2/3)
+			Spegelkärnor:
+				Två kärnor (Z,N) & (Z',N') är spegelkärnor omm
+				Z == N' och Z' == N. Byta av p -> n ger då samma
+				energi i kärnan och den enda ändring som uppstår är i
+				Coulombkraften.
+
+				Vi tittar exklusivt på spegelkärnor där
+					Z = Z'+1 = N+1 = A-Z+1
+					=> A = 2Z-1
+
+				R = R0*A^(2/3)
+
+				Coulombenergin av en homogent laddad sfär med total laddning
+				Q är
+					EC = (3/5) * 1/(4pi*e0) * Q^2/R,
+				och energiskillnaden mellan spegelpar blir
+					Delta(EC) = (3/5)/(4pi*e0*R) * (Z2 - (Z-1)2)
+							  = .. * (2Z - 1)
+					          = (3/5)/(4pi*e0*R0) * A^(2/3)
+	14. Hur kan en mäta massfördleningen (p och n) med a-partikelspridning.
+		Vad får en för resultat? Jämför med mätningen av elektriska
+		laddningsfördelningen.
+			Om a har nog hög energi så överkoms Coulombrepulsionen och
+			spridningen sker mot kärnpotentialen. Från spridningen
+			kan radien beräknass som tidigare. Resultatet är att
+			kärnradien och elektriska radien är ungefär densamma
+			+- 0.1 fm.
+	15. Läs inledningen till avsnitt 3.2 som jämför bindingsenergin hos
+		e i H, D's bindningsenergi, och slutningen 3 kvarkars bindning
+		för att forma en nukleon?
+			* e i H: 13.6 eV
+			* nuk. i D: 2.2 MeV
+			* kvarkar: 3 kvarkar av totalt 300 GeV viloenergi kombinars
+						till en nukleon med 1 GeV viloenergi.
+	16. en masspektrometer kan mäta med en presicion på 1:10e6.
+		Hur fungerar den?
+			* En jonkälla skjuter joniserade atomer genom ett,
+			* vinkelräta magnet och elektriska fält för att
+				filtrera hastigheten,
+			* sedan böjs strålen av ett homogent magnetfält berorende
+			  	på rörelsemägden och därmed massan.
+	17. Hur uppnår jen den höga precisionen?
+			* massdubbletmetoden, mät masskillnaden mellan två närliggande
+				kärnor och lös ut den sökta massan.
+			* värt att använda atomer/molekyler med C12 då m(C12) = 1 u.
+	18. Hur kan en bestämma en massa med hjälp av en kärnreaktion?
+			* mät Q = massenergiskillnaden = kinetiska energiskillnaden
+			* Lös ut sökta massan, kan kräva andra massor givna av
+				massdubbletmetoden.
+	19. Begreppet bindningsenergi är central i kärnfysiken,
+		kolla 3.24, 3.25
+			*  B = {Zmp + Nmn - [m(AX) - Zm€]}c2, 		(3.24)
+			*  B = {Zm(H) + Nmn - m(AX)}c^2,			(3.25)
+			samma uttryck bara omskrivet.
+	20. Hur får en fram massdefekt, p/n-separationsenergi Sn/Sp?
+			* massdefekt = (m-A)c^2 = -B
+			* Sn = B(N) - B(N-1)
+			* Sp = B(p) - B(p-1)
+	21. Studera fig 3.16. Vad går att urläsa?
+			* plottar B/A = bindingsenergi/nuklon,
+			* ungefär konstant, utom för lätta kärnor,
+			* topp runt A = 60, hårdast bunda kärnorna,
+	22. Den semi-empriska massformelen försöker modellera fig 3.16,
+		med vilka komponenter byggs den upp?
+			* M(Z,A) = Zm(1H) + Nmn  - B(Z,A)/c^2
+			* B(Z,A) = av*A - as*A(2/3) - ac*Z*(Z-1)*A(-1/3) - asym * (A-2Z)2/A
+						+ delta
+			* B(Z,A) = volume - surface - coulomb - symmetry
+	23. för A = konstant uppstår två massparabler fig 3.18; vad visar de?
+		vilka typer av sönderfall är möjliga enligt fig?
+			* Plottar massan för kärnor med samma A.
+			* Kärnan med minst massa är stabilast.
+			* Naturen promenerar ned för parabeln genom beta-sönderfall,
+				mot den stabila kärnan.
+			* Kärnor med udda Z, udda N kan konvertera i båda riktningarna
+				p->n,n->p för att få stabila par av Z,N.
+			* Dubbelt beta-sönderfall kan även ske: 2p->2n för
+			  	dessa kärnor.
+	24. Hur sammansätts kärnspinnet I?
+			* Kärnans spin kan ofta bestämmas av en ensam
+				valens-nukleons spin I = j,
+			* Ibland måste flera valens-nukleoner tas hänsyn
+				till.
+			* Ibland bidrar den ensamma nukleonen och kärnan
+				men spin.
+			* udda A => I = halv-heltal,
+			* jämn A => I = heltal.
+	26. Vad menas med en kärnas paritet pi?
+			* Beskriver symmetrin hos kärnans vågfunktion,
+
+== Calculate Questions ==
+	1.1. Beräkna kärnradien hos 16O8, 120Sn70, 208Pb126, använd r0 = 1.2 fm.
+				R = r0A^(1/3), put in the A's
+	1.2. Hur stor energimängd i MeV fordras för att ta bort en n eller po från
+			42Ca?
+				Sn = B(N) - B(N-1) = 11.47 MeV,
+				B(N)   = (Z*mp + N*mn) - (M(42Ca) - 20*me)
+				B(N-1) = (Z*mp + N*mn) - (M(41Ca) - 20*me)
+				Same for the proton binding energy
+	1.3.
+				ez-
+	1.4.
+				$E^2 = (mc^2)^2 + (pc)^2) = (pc)^2$ => $p = E/c$
+	1.5.
+				tråkig algebra, relativistiskt
+	1.6.
+				tråkig algebra, relativistiskt
+	1.7.
+				använd uttrycked för den kompletta bindingsenergin
+	1.8.
+				använd uttrycked för den kompletta bindingsenergin
+	1.9.
+				$Delta = (m - A)c^2 <=> m = Delta/c^2 + A$

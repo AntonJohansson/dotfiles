@@ -1,0 +1,47 @@
+== Study Questions ==
+	1. Hur kommer det sig att tyngre kärnor föredrar att sända ut en 4He-kärna
+	   jämfört med andra kärnor tex 4Be, 12C?
+	   		* 4He är väldigt stabil och tätt bunden.
+			* Perfekt om en vill ha en produkt som får hög kinetisk energi
+				vid separation.
+			* Av den närliggande kärnorna är enbart 4He energetiskt möjlig.
+			* Sannolikheten för tyngre kärnorna är väldigt liten.
+	2. För att en kärna ska kunna räknas som en alfa-emitterare ställs också
+		förväntningar på sönderfallskonstanten. Vilken?
+			* den får ej vara för liten, t12 < 10e6 år.
+	3. Ställ upp/härled ett uttryck för den kinetiska energin en alfa-partikel får
+		vid ett sönderfall.
+			* X -> X' + a
+			* Conservation of energy
+				$mxc^2 = mx'c^2 + Tx' + mac^2 + Ta$
+				$<=> (mx-mx'-ma)c^2 = Q = Tx' + Ta$
+			* X antas vara i vila så Tx = 0 => px' = pa
+				$Q = px'^2/2mx' + Ta = pa^2/2mx' + Ta$
+				$= (ma/mx + 1)Ta$
+				$=> Ta = Q/(1+ma/mx)$
+			* Då ma/mx < 1 (x' heavy) kan oftast förenklingen
+			  ma/mx = 4/(A-4) göras, vilket ger
+				$Ta = Q(1 - 4/A), A >> 4$
+	4. Definiera Q-värdet på två olika sätt
+			* $Q = (mx - mx' - ma)c^2,$
+			* $Q = Tx + Ta$
+	5. Hur kan en se att beräkningarna kan göras klassiskt och inte relativisiskt?
+			* Energin vid a sönderfall är ~5 MeV => T << mc^2 för både a och x'.
+	6. Vad beskriver Geiger-Nutalls lag?
+			* En koppling mellan energin vid a-sönderfall (Q) och halveringstid
+				för kärnan.
+	7. Vilken ansats gör en för att beskriva mekanismen vid sönderfallet?
+			* Antar att a formas före sönderfallet och rör sig i
+				dotterkärnans potential. Sönderfallet sker sedan
+				genom tunnling.
+	8. Beskriv den förenklade modellen för barriärpenetration.
+			* antar att a kärnan uppvisar sig om och om igen med en
+				fix sannolikhet för att penetrera. Väldigt biljard-bolligt.
+	9. Hur bra lyckas teorin förutsäga alfa-halveringstiderna?
+			* Stämmer någorlunda, 1-2 orders of magnitude över 20 orders.
+	10. Vad har en bortsätt från i modellen?
+			* Tar ej hänsyn till initial och slutliga vågfunktionen
+				(fermi's golden rule) för att beräkna sönderfalls
+				sannolikhet,
+			* tar ej hänsyn till a's ang. mom.,
+			* antar att kärnan är sfärisk med en medelradie 1.25A^(1/3).

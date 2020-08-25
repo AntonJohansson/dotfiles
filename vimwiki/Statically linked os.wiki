@@ -1,0 +1,26 @@
+== Packages that are nice ==
+	* musl-libc -- glibc not possible to statically link
+		* c compiler
+	* ubase -- suckless unportable tools similar to util-linux
+		* ranlib
+		* c compiler
+		* crypt
+		* ar
+		* needs #include <sys/sysmacro.h> patch
+	* sbase -- suckless portable unix tools
+		* ranlib
+		* c compiler
+		* ar
+	* sdhcp -- suckless dhcpcd client
+	* Init system
+		* (?) sinit -- suckless init system
+			* Easy peasy to insatll
+			* requires only a c compiler
+		* (?) runit -- ...
+	* smdev
+		* requires patch for #include <sys/sysmacros.h>
+	* nldev
+		* ?
+	* C compiler
+		* gcc
+		* tcc

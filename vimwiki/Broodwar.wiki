@@ -1,0 +1,19 @@
+== ZvT ==
+	* [[3 base muta opening]]
+== ZvP ==
+	* [[3 Base muta into 6 hatch hydra]]
+== ZvZ ==
+	* [[11 gas 10 pool]]
+
+== ZvP Core strategy ==
+	1. Buildup -- protoss expands, zerg double expands
+		a) zealots v lings+sunken
+	2. Zerg's "Big defence"
+		Protoss: Corsairs, speed zealot, high templar, dark templar.
+		Zerg: Zerglings, Hydras, Scourge, Sunken.
+	3. Big battling phase -- both players have strong armies
+		Protoss: Dragoons in large numbers, 3rd base.
+		Zerg: Lurkers added, Hive started, 4th or 5th base.
+	4. End game -- Armies mature
+		Protoss: Large nubmers of Archons, Reavers, 4th base.
+		Zerg: Defilers, Cracklings, Drops, Ultras.

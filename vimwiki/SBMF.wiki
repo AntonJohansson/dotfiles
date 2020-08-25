@@ -1,0 +1,57 @@
+== TODO ==
+	* [.] Implement the "iterate to self-consistency" method to find groundstates using harmnoic oscillator bases
+		- [X] This results in r == -nan on iteration 88 of the internal H-poly. loop.
+				{{{c
+				f64 x = 1872.271316;
+				f64 r = ho_eigenfunction((i32[]){88}, &x, 1);
+				}}}
+			Do we have to use more float precision or can we get away with using another method?
+		- [ ] Is there a way to make quadgk call its integrand with array
+				arguments?
+	* [ ] Move memory alloc to not interface with stack directly? can add check for  initialization.
+	* [ ] Many-body pertrubation theory
+		- [ ] How is this different from regular P.T.?
+	* [ ]testing hob_eigenfuction_***
+		* [X] create a single x, single n cached sum version
+			* cached sum is roughly the same as the single x,n
+				reccurence one!
+			* my hypothesis is that reccurence is faster for
+				multiple n, whilst sum is faster for
+				multiple x
+		* [ ] Test multiple x values
+		* [ ] Test multiple n values
+		* [ ] Test multiple x,n values
+	* [ ] Get system information
+		* [ ] Threads supported
+		* [ ] Cache line size
+
+== DONE ==
+	* [X] Potential speedup for ITEM, adaptive timestep
+		- [X] See papers/item.pdf
+		- [X] "Moved on to using self-consistency iteration"
+	* [X] Unify memory allocation.
+	* [X] Basis functions instead of fdm
+		- [X] Quadgk for numerical integration
+			- [X] implement own quadrature?
+	* [X] nasty bug
+		the dimension n generate_grid is connected to a stack smashing bug, n = 1 => no smashing, n = 2 => smashing.
+	* [X] memory allocation is 8-byte aligned
+	* [X] Which ARPACK routines should we use for complex band matrices?
+		"znaupd, zneupd, ..."
+	* [X] Is there a more efficient LAPACKE routine for complex band matrices?
+		"im gonna say no"
+	* [X] Convert column to row major in eigenvalue solver
+	* [X] numerical weirdness in results after a certain point?
+		- [X] whats going on?
+			"	the output from lacpake isnt automatically converted to row major in the same way that
+				the input is, changed interpretation of eigenvector output to column major. "
+		- [X] absolute values are still accurate.
+			" turns out they weren't accurate, just sneaky, errors in this where especially visible at
+				lower grid resolutions. "
+	* [X] the operator that we're diagonalizing should maybe be real?
+		" it should not, we need the output eigenvectors to be complex. "
+	* [X] Try projecting full numerical hamiltonian onto known ground states (e.g. harmonic) to avoid having to
+			diagonalize massive matrices. This is especially needed for higher dimensionality.
+		" this is the way moving forward. "
+	* [X] cos^2 x gives asymmetric solution
+		" solved but not sure how. "

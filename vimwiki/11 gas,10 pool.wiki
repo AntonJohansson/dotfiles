@@ -1,0 +1,10 @@
+== Build ==
+	9 - Overlord
+	11 - Extractor
+	10 - Spawning Pool
+	11 - Save Larva
+	@100% Spawning Pool - Six Zerglings
+	@100% Spawning Pool - Lair
+	@100 Minerals / 100 Gas - Upgrade Zergling Speed
+	16 - Overlord
+	@100% Lair - Spire

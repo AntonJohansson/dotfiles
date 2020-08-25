@@ -1,0 +1,59 @@
+== Study Questions ==
+	1. Vilken formalism an används för att beskriva kärnreaktioner?
+		a + X -> Y + b		<=> 	X(a,b)Y
+	2. Exempel på kärnreaktioner
+		radiative capture: X(a,gamma)Y	"a fångas av reaktionen"
+		photoeffect:	X(gamma,b)Y	"b skickas ut"
+		elastic scattering: a == b + Y,b in ground states
+		inelastic scattering: a == b + Y,b in excited states
+		knockout: a == b, a + X -> Y + a + c
+		transfer: nucleon from a -> X,	d+X->(X+n)+n
+
+		reactions can also be classified by governing mechanism:
+			direct: only few nucleons take part, rest spectate (transfer,...)
+			compound: a+X merge to then eject Y,b
+			resonance: a+X forms quasibound states before eject Y,b
+	3. Tvärsnitt? Differentiellt tvärsnitt? Symboler?
+		diff. cross section: probability to observe b with energy E at angle (t,p)
+								with respect to the beam axis.
+		cross section: integrating diff. cs. over all angles we get total prob. that
+						b is emitted with energy E.
+		dsigma, sigma
+	4. Hur räknar en ut det makroskopiska tvärsnittet? Symbol?
+		sigma_t: add all cs. for possible b given a, no matter direction of energy.
+					Gives probability of any reaction occuring at all.
+	5. Konserveringslagar vid kärnreaktioner
+		total energy, linear momentum, p and n numbers, angular momentum, parity
+	6. Visa hur en får fram två alternativa formuleringar av Q-värdet
+		Conservation of total relativistic energy: $mxc^2 + Tx + mac^2 + Ta = myc^2 + Ty + mbc^2 + Tb$
+		Q := (minit - mfinal)c^2 = (Tfinal - Tinit).
+		Q > 0: exoergic or exothermic
+		Q < 0: endoergic or endothermic
+
+== Calculate Questions ==
+	* Problem 2.3: O(14) -> e+ + N(14) -> e+ + N(14) + gamma(2.312 MeV).
+	  Beta-spektrumets maxenergi är 1.813 MeV. Beräkna massan för O(14), givet
+	  M[N(14)] = 14.0003074 u.
+	* Problem 2.4: Beräkna Q-värdet för $d + N(14) -> N(15) + p$.
+			$1 u = 931.5 MeV/c^2$
+      		$Q = (minit-mfinal)c^2 = (2.014102 u + 14.003074 u - 15.000108 - 1.007825)c^2$
+			 $= 8.610 MeV$
+	* Problem 2.5: Beräkna positronens maximala energi i $N(13) -> C(13) + e+ + v$ givet att
+	  $C(13) + p -> N(13) + n$ har Q = -3 MeV , mn = 1.0086654 u och mp = 1.0078252.
+			$Q = -3 MeV = (mC+mp-mN-mn)c^2 => (mC-mN)c^2 = -(mp-mn)c^2 - 3 MeV = -2.217 MeV$.
+			Conservation of Energy gives mN +TN = mC + TC + me + Te + Tv,
+			Conserervation of lin. mom. gives mTN = mTC + mTe + mTv
+			TN = 0 = TC
+			$(mN-mC)c^2 = 2.217 MeV = me + Te + Tv$
+			$2.217 = me + -mTe + Te => Te = (2.217 - me)/(1-me) = 1.172$
+	* Problem 2.6 B(10) + n -> Li*(7) + a
+			Conservation of total energy: mB+TB+mn+Tn = mLi+TLi+E+ma+Ta,
+			Conservation of lin. mom.: mTB + mTn = mTLi + mTa
+			assuming TB = 0 and TN = 0.025 eV = approx 0 gives
+			mTa = -mTLi
+			mB + mn = mLi + (ma/mLi)Ta + E + ma + Ta
+			(mB+mn-mLi-E-ma)/(1+ma/mli) = Ta = 1.47 MeV
+	* Problem 2.7 B(11)[d,a]Be(9) där E(d) = 1.600 MeV, E(a) = 5.216 MeV, theta = 90.
+			Vilket energitillstånd har kärnan efteråt?
+				Beräkna Q enligt 11.10, jämför med teoretiska Q som bara är massskillnaderna.
+				=> det vi vill ha.

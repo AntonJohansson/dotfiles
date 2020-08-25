@@ -1,0 +1,25 @@
+== Study Questions ==
+	1. Vilka är fördelarna med att mäta gammastrålnings (jämfört med a,b) om en
+		vill studera kärnornas struktur?
+			* Kärnan hamnar ofta i ett exciterad tillstånd efter reaktioner,
+				och slappnar av till grundtillståndet genom emission av
+				g-strålning. Strålning ger pss info om exciterade tillstånd.
+			* Enkel att mäta (lite spridning/låg absorption i luft ex.)
+			* Enkelt att mäta energier med hög precision.
+			* Studie av gamma och inre konversion kan ge info om spin/paritet hos
+				exciterade tillstånd.
+	2. Vilken typ av omvandling i en kärna leder till gammastrålning och vad får
+		den för energi?
+			* Avslappning från exciterade tillstånd, strålningen får energin given
+			 	av energiskillnaden mellan tillstånden (om rekylmomentet antas försumbart).
+	3. Beskriv processen för inre konversion och vilken energi som frigörs.
+		Jämför med labb kf3, b-spektroskopi och användningen av
+		inre-konversionselektroner för tjockleksbestämning.
+			* istället för att emittera en foton, så skickas
+				en elektron iväg.
+			* elektronens kinetiska energi är
+				T = Delta(E) - B,
+			  där B är e's bindningsenergi.
+			* finns en nedre gräns för processen = B
+			* följs ofta av röntgenstrålning då hålet
+				fylls.

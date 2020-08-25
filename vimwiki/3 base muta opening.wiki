@@ -1,0 +1,36 @@
+== Build ==
+	9		 	ovie
+	12 		 	hatch @nat
+	11-13 	 	pool
+	13-14 	 	hatch
+	12-14 	 	gas
+	@pool 	 	2 lings
+	16 		 	ovie
+	@100 gas 	lair
+	21-23 	 	gas
+	@100 gas 	lingspeed
+	@100% lair 	spire				(4.48 - 4.52)
+	24 			ovie
+	25..27   	Drones
+	28..33 		lings
+	33 			hatch or sunken
+	@50% spire  3 ovie
+	Save larva
+	@60% spire 	send drone -> third
+	33ish 		9 mutas
+	@200 gas 	2 mutas
+				1 ovie
+
+== Benchmarks ==
+		date		spire	lingspeed	9mutas		drones
+	-------------------------------------------------------------
+		19/07/20	05:??	05:40		7:30		30
+		19/07/21	04:58	05:15		6:52		28
+
+== Adaptations ==
+	- 1 rax FE transition to +1 5 rax
+		- T aims to delay 3rd and force lings midgame, Z can defend 3rd with muta/ling
+		  until lurks are out.
+		- Sign: T has ~9 marines + 1 medic when spire is placed
+	- 2-3 rax
+		- Sign: T has > 10 marines when spire is placed

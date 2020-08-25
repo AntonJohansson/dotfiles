@@ -1,0 +1,94 @@
+== Study Questions ==
+	1. Förusättningar => exponentiella sönderfallslagen?
+			1) sönderfall är statiskt i sin natur, omöjligt att föru-
+				tspå när ett sönderfall kommer ske.
+			2) sönderfall kommer från förändringar i enskilda atomer.
+	2. Hur får en medellivslängden från halveringstiden?
+			$tau = 1/lambda = 1/(0.693/t12) = t12/0.693$
+	3. Relation mellan aktivitet och antalet kärnor? Vilket tids(bi)vilkor
+		måste då vara uppfyllt?
+			$A(t) = lambda * N(t), delta T << t12$
+	4. Vad menas med partiell sönderfallskonstant?
+			Om en kärna A kan sönderfalla till produkterna B,C fås en "partiell
+			sönderfallskonstant" per möjligt sönderfall:
+				$lambda_a = -(dN/dT)_a/N,$
+				$lambda_b = -(dN/dT)_b/N,$
+			den totala sönderfalls konstanten fås då genom
+				$lambda_t = lambda_a + lambda_b.$
+	5. Ställ upp och härled ekvation (6.23)
+			Antag att radioaktiva kärnor 1 produceras genom en reaktion n + 0 -> N,
+			men kärnor 0. Antalet 1 som produceras per sekund blir då
+				$R = N0*sigma*I,$
+			där I är flödet n/s*cm2 och sigma är sannolikheten per för att reaktionen
+			skall ske. Under ett tidsintervall dt produceras då Rdt kärnor 1 och
+			-lambda*N1*dt sönderfaller till kärna 2. Allt som allt
+				$dN1 = R*dt - lambda*N1*dt <=> dN1/dt = R - lambda*N1$
+			mult. med $exp(lambda*t)$
+				$ => exp(lambda*t)*dN1/dt + lambda*exp(lambda*t)*N1 = exp(lambda*t)*R$
+				$ <=> d/dt [exp(lambda*t)*N1(t)] = exp(lambda*t)*R$
+				 $<=> N1(t) = R/lambda + A*exp(-lambda*t)$,
+			sen ger $N1(0) = 0$ att $B = -R/lambda$. Dvs.
+				$N1(t) = (R/lambda) * (1 - exp(-lambda*t))$.
+	6. Hur länge (uttryckt i halveringstider) är det lönt att göra en
+		aktivering? Motivera.
+			Aktiviteten $A1$ avtar med ökad aktiveringstid mot sekulär jämvikt.
+			Längre aktiveringstid bidrar därför med mindre aktivitet.
+			Det är därför inte lönt att aktivera längre än 2-3 halveringstider.
+			Det är mest lönsamt att hålla sig i den linjära regimen t << t12.
+	7. Från de generella uttryckenför seriesönderfall (6.31,6.32) kan en
+		reducera ut specialfallen sekulär och transient jämvikt.
+		Vad gäller då?
+				$N2 = N0 l1/(l2-l1) [exp(-l1 t) - exp(l2 t)]$
+			sekulär jämvikt sker då $l1 << l2$, dvs, förälderkärnan lever
+			mycket längre än dottern. Förälderns sönderfall kan då ses
+			som konstant i förhållande till dottern och
+				$N2 = N0 l1/l2 [1 - exp(-l2 t)]$
+			fås. Dvs antalet dotterkärnor går mot en konstant.
+
+			Om $l1 < l2$ istället så fås transient jämvikt då förhållandet
+			mellan aktiviteterna går mot en konstant.
+				$l2 N2 / l1 N1 =  N0 l1*l2/(l2-l1) [exp(-l1 t) - exp(-l2 t)] / [l1 N0 exp(-l1 t)]$
+				$             = l2/(l2-l1) [1 - exp(-l2 t + l1 t)]$
+				$             = l2/(l2-l1) [1 - exp(-(l2 - l1) t)]$,
+			och då $l1 < l2$ går detta mot en konstant.
+
+	8. Vilka typer av sönderfall kan förekomma?
+			alpha-,beta-,gammasönderfall
+	9. I naturen kan fyra sönderfallskedjor förekomma (vilka=) men endast 3
+		finns kvar idag. Varför?
+			Under sönderfall minskar A med 4 för alpha och ändras ej med beta,gamma.
+			Ett sätt att karaktärisera sönderfallskedjor är alltså genom de möjliga
+			masstal A som kan nås genom sönderfall. 4 kedjor uppkommer på så sätt
+			där A kan skrivas som
+				$A = 4n,4n+1,4n+2,4n+3$,
+			Neptuniuimserien $4n+1$ vars dotter $237Np$ med längst halveringstid
+			$t12 = 2.14e6$, förekommer ej naturligt i dagsläget, då Jordens ålder
+			$~1e9$, alla döttrar i denna serie har sönderfallit och kvar finns
+			den stabila produkten $209Bi$.
+	10. Vad är absorberad dos, och vilken enhet mäts det i?
+			Mått på energin deponerad i ett material av joniserande strålning.
+			[energi per enhetsmassa material]. Ofta mäts detta i rad,
+			(radiation absorbed dose) = 100 ergs/kg, eller Grey
+			1 Gy = 1 J /kg, 1 Gy = 100 rad.
+	11. Hur tar en hänsyn till att olika stårslag (och även energi) har
+		olika effekter rent biologiskt?
+			genom att definiera Relative Biological Effectiveness (RBE) som
+			förhållandet dos strålning till dos X-ray strålning med samma effekt.
+
+			Detta är dock svårt att mäta så istället används ofta Quality Factor QF
+			som mängden energi deponerad per penetreringslängd.
+
+			Sievert är H = Q*D = QF * absorberad dos
+	13. --
+	14. --
+			2 §   För arbetstagare som har fyllt 18 år och sysselsätts i
+					verksamhet med joniserande strålning får den sammanlagda
+					årliga stråldosen inte överskrida
+   			1. en effektiv dos på 20 millisievert,
+   			2. en ekvivalent dos på 20 millisievert till ögats lins,
+   			3. en ekvivalent dos på 500 millisievert till extremiteter, eller
+   			4. en ekvivalent dos på 500 millisievert till huden som ett
+				medelvärde över 1 kvadratcentimeter oavsett hur stor yta som
+				exponeras.
+
+			Arbetstagare innefattar i det här fallet universitetsstuderande över 18.

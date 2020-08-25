@@ -1,0 +1,20 @@
+== Study Questions ==
+	1. Varför alstrar fusion av lätta kärnor energi
+		Möjligt att slå ihop två lätta kärnor till en produkt som är hårdare bunden.
+	3. Vilken är den fundamentala tröskeln som försvårar fusion?
+		Reaktanterna måste överkomma varandras Coulombbarriär för att reaktionen skall kunna ske.
+	5. Vilka reaktioner skulle vara mest gynsamma och lättast att åstadkomma för att fåk
+		kontrollerad fusion i en termonukleär reaktor?
+			D+T -> 4He + n 	(Q = 17.6 MeV)
+	7. Vilken process i solen är huvudansvarig för dess energiproduktion?
+		4p -> 4He (i flera steg)
+	9. Vilket är "nålsögat" i denna process?
+		Osannolikt att 2st p stöter på varandra
+		Allt som allt:
+			1H + 1H -> 2H + e+ + v (Q = 1.44 MeV)
+			2H + 1H -> 3He + gamma (Q = 5.49 MeV)
+			3He + 3He -> 4He + 1H + 1H + gamma (Q = 12.86 MeV)
+	11. För tyngre och hetare stjärnor är en annan process betydelsefull, vilken?
+		dessa är ofta äldre och har bränt alla sin H, heliumfusion är då nästa steg
+			3 * 4He -> 12C
+		sker ofta i flera steg genom att fösta bilda 8Be ov..

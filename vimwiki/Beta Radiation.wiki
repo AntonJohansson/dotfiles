@@ -1,0 +1,46 @@
+== Study Questions ==
+	1. Vilka är de tre typer av beta-sönderfall som kan förekomma?
+			* b-: n -> p + e- + v-
+			* b+: p -> n + e+ + v
+			* elektroninfång: p + e- -> n + v
+	2. Vilka egenskaper har neutrinon i beta-sönderfallet?
+			* Laddningskonservering kräver existensen av en neutrino.
+			* Neutrinon bär iväg den "saknade" energin i sönderfallet.
+			* ang. mom. konservering => spin 1/2
+			* weakly interacting
+	3. Vilket är sambandet mellan b-partikelns kin. och dess totala energi?
+		Motsvarande för neutrinon.
+			* Ee = Te + mc^2
+			* Ev = Tv (neutrinon är masslös)
+	4. Härled sambandet fr Q-värdet vid b(-)-sönderfall.
+			*  n -> p + e- + v-
+				* N = nuclear masses
+				* Q = [mN(A,Z) - mN(A,Z+1) - me]c^2
+				* m(A) = mN(A) + Zme - sum Bi, where Bi is the binding energy of
+				 	the ith electron.
+				* Q = ([m(Ax) - Zme] - [m(Ax') - (Z+1)me] - me) + sum(Z) Bi - sum(Z+1) Bi
+					* e masses cancel and neglecting difference in e binding energy we get
+				* Q = [m(Ax) - m(Ax')],
+					where the masses are neutral atomic masses.
+	5. Härled sambandet fr Q-värdet vid b(+)-sönderfall respektive elektroninfång.
+			*  p -> n + e+ + v
+				* Similar to the previous calculation we get
+				* Q = [m(Ax) - m(Ax') - 2me],
+					the electron masses to not cancel in this case.
+			* (A,Z,N)X + e- -> (A,Z-1,N+1)X' + v
+				* när en electron infångas från ex. K-skalet så lämnas ett hål,
+					som snabbt fylls av elektroner från högre skal genom att de
+					avger strålning med energi lika med bindningsenergin för
+					elektronen som infångades.
+				* Q = [m(Ax) - m(Ax')] - Bn
+	6. Vilka uppskattningar finns om neutrinons massa, och n'mn några konsekvenser
+		av att neutrinon inte skulle vara masslös.
+				* viloenergi < 60 eV
+				* 14 eV < möjligtvis viloenergi < 20 eV
+				* om neutrinon har massa tillåts en konvertion av
+					ve -> tau,muon nutrinos,
+				  vilket skulle förklara varför antalet neutrinos från
+				  solen är ~ 1/3 av det som förväntas.
+				* dessutom om de har massa så skulle det bidra med en
+					märkvärd nedbromsande effekt av universums expansion.
+					(infaltion => ~10e8 neutrinos/m3)

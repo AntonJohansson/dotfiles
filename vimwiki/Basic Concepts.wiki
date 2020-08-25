@@ -1,0 +1,20 @@
+== Study Questions ==
+	1. I atomfysik finns en heltäckande teori, qed, vilken är den
+		motsvarande teorin i kf?
+			Det finns ingen motsvarande teori inom kf, bara en massa
+			separata teorier.
+	2. En (atom)kärna består av p och n. Beteckningar för protonantal,
+		neutronantal och masstal?
+			Z = protonantal, A = masstal, finns ingen beteckning för
+			neutronantal N = A - Z
+	3. Vad menas med nukleon, isotop, isoton, isobar?
+			nukleon = partiklen i kärnan n,p
+			isotop = kärna med samma protonantal, olika A,
+			isoton = kärna med samma neutronantal, olika Z,
+			isobar = kärna med samma A
+	5. Vilka måttenheter för längd respektive energi är relevanta inom
+		kf?
+			* 1 Å = 10e-10 m
+			* MeV
+	6. Hur konverterar en den u till MeV?
+			använd E = mc2. 1 u = 931.5 MeV

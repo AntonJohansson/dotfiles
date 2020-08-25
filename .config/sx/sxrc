@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#feh --bg-fill ~/files/Camera/20190906_204455.jpg
+hsetroot -solid "#4F3F3F"
+
+xset +fp /home/aj/.local/share/fonts
+set fp rehash
+
+sh ~/.local/bin/configure_input.sh
+
+picom --backend glx --vsync --corner-radius 10 --inactive-opacity 0.55 --focus-exclude "class_g='dwm'" &
+dunst &
+slstatus&
+mbpfan&
+exec dwm

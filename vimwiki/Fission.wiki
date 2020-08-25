@@ -1,0 +1,43 @@
+== Study Questions ==
+	1. Vilken balansgång i kärnan är det som leder till att just tunga kärnor kan klyvas spontant?
+		Uppstår pga balansgång mellan kärn- och coulombkrafter i tyngre kärnor. Bindingsenergin ökar som A, medan Coulombkraften ökar som Z^2.
+		Tyngre kärnor som klyvs bildar mer stabila ämnen och släpper ut energi, denna energi häver fragmenten närmre toppen
+		av kärnpotentialen och ger en chans till spontan fission via tunnling.
+	3. Ungefär hur mycket energi frigörs vid fission?
+		// not relevant (not possible?) -- U(238) -> 2*Pd(119) släpper ut ~214 MeV.
+		U(235) + n -> U*(235) släpper ut 6.5 MeV
+	5. Varför är spontan fission mycket ovanligare än alfa i U(238)?
+		Klyvningen ger inte nog energi för att ge en rimlig chans att penetrera kärnpotentialen. Varför är alfa rimligare?
+	6. Beskriv processen i fissionsförloppet, begränsningar m.m.?
+	7. Hur kan en uppskatta en gräns (Z,A) för när spontan fission bör uppträda?
+		Semiempiriska massformeln kan användas för att uppskatta effekten på bindingsenergin av deformationen av en
+		ursprungligen sfärisk kärna. A nucleus that gains (releases?) energy when streched is unstable against fission.
+		This gives Z^2/A > 47.
+	8. Hur uppstår prompta respektive fördröjda neutroner?
+		* prompt: uppstår i fissionsögonblicket pga fragmenten behöver göra sig av med n för att bli stabila.
+			medeltalet prompta n är karaktäristiskt för processen.
+		* delayed: från beta-sönderfall av fissionsfragmenten.
+	9. I en kontrollerad fission krävs en kedjereaktion. Vad innebär det och vilket begrepp införs för att beskriva detta?
+		0.72% U(235), 99.28% U(238)
+		* Varje fussionshändelse producerar ~2.5 n, som i sin tur kan producera fler fissionshändelser. En händelse släpper ut ~200 MeV.
+		* neutron reproductiuon factor k_inf: nettoändringen i antalet n från en generation till nästa. Varje thermal n producerar i medel k_inf
+			nya thermal n.
+	10. xi?
+		k_inf = eta * epsilon * p * f
+		* eta = medelantalet fission n per orginal th. n.
+			eta = nu * sigma_f / (sigma_f sigma_a)
+		* epsilon = the fast fission factor. Accounts for pre-moderated fast neutrons that can fission with 238.
+		* p = resonance escape probability. Accounts for in-moderation n being resonance captured by 238.
+		* f = thermal utilization factor. Fraction thermal n available to 235,238, some may be resonance captured
+			by structural elements or graphite.  13. Ange huvudkomponenterna i en reaktor och vilken funktion de har?  * Fuel * Moderator
+	11. Vilka komponenter ingår i den s.k. fyrfaktorformeln?
+		* Reflector
+		* Containment vessel
+		* Shielding
+		* Coolant
+		* Control systems
+		* Emergency systems
+	12. Studera figur 13.29, 13.30 i perspektiv av olyckan i Fukushima där kylningen av bränslet blev undermålig?
+== Calculate Questions ==
+	didnt save 2.10-2.11 :(
+	2.12. Conservation of energy + Conservation of linear momentum + (m1+m1=236 u) + (m1/m2 = 1.45) gives solution :)

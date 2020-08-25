@@ -1,0 +1,36 @@
+== Build ==
+	Overpool or 9 pool
+	11 		hatch
+	10 		6 lings
+	15		hatch + gas
+	16 		ovie
+	18		lair
+	21		lingspeed
+	23/24	ovie
+	24		2 pairs of lings
+	@lair	spire
+
+	31		ovie
+	32		hatch
+	35		hatch
+
+	@spire 		2 pairs of scourge (one for corsair, one for scouting), if more corsair get +1 air carapace + more scourge.
+	38			hatch
+
+	one sunk each nat
+
+
+	40 		hydra
+	42		evo
+	42		gas
+
+	44-47 		Air Carapace
+	44-47		+1 Range Attack
+	47/51 		Overlord Speed
+	@50 Supply - start Hydra production
+
+== Benchmarks ==
+		date		spire	lingspeed	scourge		50 supply
+	-------------------------------------------------------------
+		19/07/20	05:28	05:47		07:15		08:38
+		19/07/21	05:50	05:10		--:--		--:--

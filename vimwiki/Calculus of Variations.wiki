@@ -1,0 +1,21 @@
+== Euler Lagrange ==
+	* Euler's approach
+		- Approximate function with line-segments.
+		- Approximate functional as as finite sum
+		- What is the effect of varying one of the free vertices
+		  in the y-direction?
+		- let n -> inf giving EL
+	* Lagrange's approach
+		- Introduce small variation h(x) to funciton y(x)
+		- measure diff. in J[y+h]-J[y] in weak or strong norm
+		- taylor expand
+		- expression for the first variation
+		- dJ = 0 gives expression which implies EL due to
+		  the fundamental lemma of the calculus of variations
+
+== Lagrange Multipliers ==
+	* Lagrange Multipliers
+
+== Weierstrass Erdmann ==
+
+== Jacobi Necessary ==
