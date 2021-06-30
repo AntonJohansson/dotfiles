@@ -14,3 +14,25 @@ snippet be "begin{...}"
 \begin{${1}}
 \end{$1}
 endsnippet
+
+snippet table "table"
+\begin{table}[ht]
+	\centering
+	\captionsetup{width=0.75\textwidth}
+	\caption{${2}}
+	\label{tab:${1}}
+	\begin{tabular}{${3}}
+		${4}
+	\end{tabular}
+\end{table}
+endsnippet
+
+snippet figure "figure"
+\begin{figure}[ht!]
+	\centering
+	\input{${1}}
+	\captionsetup{width=0.75\textwidth}
+	\caption{${2}}
+	\label{fig:${3}}
+\end{figure}
+endsnippet

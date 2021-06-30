@@ -8,7 +8,7 @@ set fp rehash
 
 sh ~/.local/bin/configure_input.sh
 
-picom --backend glx --vsync --corner-radius 10 --inactive-opacity 0.55 --focus-exclude "class_g='dwm'" &
+#picom --backend glx --vsync --corner-radius 10 --inactive-opacity 0.55 --focus-exclude "class_g='dwm'" &
 dunst &
 slstatus&
 mbpfan&

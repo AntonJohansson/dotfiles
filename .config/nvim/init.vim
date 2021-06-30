@@ -21,7 +21,7 @@
 		" Quality-of-life
 			Plug 'junegunn/vim-easy-align'
 			Plug 'vimwiki/vimwiki'
-			"Plug 'sirver/UltiSnips'
+			Plug 'sirver/UltiSnips'
 
 		" Searching
 			Plug 'junegunn/fzf', {'do': {-> fzf#install()}}
@@ -58,11 +58,19 @@
 	set softtabstop=0 noexpandtab
 	set shiftwidth=4
 
-	set conceallevel=2
+	set conceallevel=0
 	set concealcursor=niv
 
 	" Specify formatting style
-		autocmd BufNewFile,BufRead *.h,*.c set formatprg=astyle\ -A2SxWwm0k1xC80T2
+		autocmd BufNewFile,BufRead *.h,*.c set formatprg=astyle\ -A2SxWwm0k1xC80t4
+		"A2 = attach style braces
+		"S = indent switch cases
+		"xW = preprocessor indent level 0
+		"w = indent multiline #defines
+		"m0 = something with 0 minimal indent of conditionals
+		"k1 = align pointer to type
+		"xC = max code length
+		"t4 = indent with 4 space width tabs
 
 	" Automatically deletes all trailing whitespace and newlines at end of file on save.
 		autocmd BufWritePre * %s/\s\+$//e
@@ -70,6 +78,9 @@
 
 " Zig
 	let g:zig_fmt_autosave = 0
+
+" vimtex
+ 	let g:vimtex_quickfix_mode = 0
 
 " Ultisnips
 	let g:UltiSnipsExpandTrigger="<tab>"
@@ -145,3 +156,6 @@
 	xmap ga <Plug>(EasyAlign)
 	" Start interactive EasyAlign for a motion/text object (e.g. gaip)
 	nmap ga <Plug>(EasyAlign)
+
+" Exit insert mode
+	imap <leader>j <ESC>
